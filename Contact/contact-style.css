@@ -1,0 +1,89 @@
+nav.navbar {
+    
+}
+.topnav a:hover {
+       font-family: 'Comfortaa', cursive;
+       color: #ce6451;
+    
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link,.navbar-light .navbar-nav .nav-link {
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #212326;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.width {
+    max-width: 1310px;
+    margin:auto;
+}
+
+
+.banner {
+    background:url(/Tiny-Horse-Marketing-Agency-Contact.jpg) 0 0 no-repeat;
+    color:#fff;
+    height:1155px;
+    padding-top:500px;
+    font-family: cardo, HelveticaNeue, "Helvetica Neue", Helvetica-Neue, Helvetica, Arial, sans-serif;
+
+}
+
+.gradient {
+    background:url(https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Agency-Gradient.jpg);
+    height:50px;
+}
+
+.locations {
+    background-color: #f4eae9;
+    height:250px;
+    font-family: Cardo;
+    padding-top: 50px;
+}
+
+.cities {
+    padding-top: 30px;
+}
+.contactform {
+    height:751px;
+    background-color: white;
+    padding-top: 100px;
+}
+.form {
+font-family: Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+font-size: 11px;
+}
+
+h2 {
+    font-family: cardo;
+    font-size:36px;
+    }
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.footer {
+    background-color: #212326;
+    height:258px;
+    color: #fff;
+}
+
+.copyrightfoot{
+    color: #5c7c91;
+    font-size:11px;
+    font-family: cardo;
+}
+
+.copyrightfoot a {
+    color:#5c7c91;
+}
+
+.copyrightfoot a:hover {
+
+    color: #ce6451;
+}
+
