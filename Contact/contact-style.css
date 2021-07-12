@@ -1,11 +1,13 @@
 nav.navbar {
-    
 }
 .topnav a:hover {
        font-family: 'Comfortaa', cursive;
        color: #ce6451;
-    
+       background-color:#212326;
+       color:#fff
+       text-transform: uppercase;
 }
+
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link,.navbar-light .navbar-nav .nav-link {
     font-family: 'Comfortaa', sans-serif;
     background-color: #212326;
@@ -54,6 +56,53 @@ text-transform: uppercase;
 font-size: 11px;
 }
 
+.form label {
+    display: block;
+    margin-top: 30px;
+}
+
+.form input {
+    font-family: Cardo, sans serif;
+    border: none;
+    background-color: #ebebeb;
+    font-size: 18px;
+    display: inline-block;
+    width:90%;
+    padding:13px;
+    border-radius: 2px;
+    margin-top: 25px;
+}
+
+.form textarea {
+    display: block;
+    margin-top: 25px;
+    width: 97%;
+    background-color: #ebebeb;
+    font-family: Cardo, sans serif;
+    border: none;
+    height: 200px;
+    font-size: 18px;
+
+}
+
+.form button {
+    margin-top: 25px;
+    padding: 15px 100px;
+    background-color: #fff;
+    color: #3a5a70;
+    text-transform: uppercase;
+    font-size: 14px;
+    outline: 0px;
+    border: 1px solid #3a5a70;
+    transition:all 0.5s;
+}
+
+.form button:hover {
+    background-color:#212326;
+
+    color: #fff;
+}
+
 h2 {
     font-family: cardo;
     font-size:36px;
@@ -64,21 +113,29 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
+    border-style:initial;
 }
 
 .footer {
+    margin-top: 30px;
     background-color: #212326;
     height:258px;
     color: #fff;
+    display: block;
 }
 
-.copyrightfoot{
+.footer img {
+    width: 150px ;
+}
+.copyrightfoot {
     color: #5c7c91;
     font-size:11px;
     font-family: cardo;
+    margin-top: 100px;
 }
 
 .copyrightfoot a {
+    
     color:#5c7c91;
 }
 
@@ -86,4 +143,3 @@ h3 {
 
     color: #ce6451;
 }
-
