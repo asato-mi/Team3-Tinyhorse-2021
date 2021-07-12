@@ -1,0 +1,117 @@
+/*For the navigation bar*/
+li{
+    display: inline;
+}
+.bg-img{
+    background-image: url("tiny-horse-marketing-agency-header.jpg");
+    min-height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.topnav{
+    overflow:hidden;
+}
+
+.logo{
+    display: inline-block;
+    vertical-align:top;
+}
+
+.left{
+    position: absolute;
+    left: 16px;
+}
+
+/* The dropdown container */
+.dropdown {
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+  }
+
+/*For the text on the background image of palm trees*/
+.banner{
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    min-height: 400px;
+    background-size: cover;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;  
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Top Left for contact*/
+.top-left{
+    position: absolute;
+    top: 8px;
+    left:16px;
+}
+
+.centeredleft{
+    position: absolute;
+    top:50%;
+    left: 33%;
+    transform: translate(-50%,-50%)
+}
+
+hr{
+    color: white;
+    height: 15px;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+    padding-top:0;
+    padding-bottom:0;
+}
+
+h3{
+    color: black;
+}
+
+
+/*for slideshow*/
+
+.footer{
+    margin-top: 30px;
+    background-color: #212326;
+    height:258px;
+    color:#fff;
+    display: block;
+}
+
+h3{
+    font-size: 14px;
+}
+
+.scrollmenu{
+    background-color: #212326;
+}
+
+h2{
+    font-size:15px;
+}
